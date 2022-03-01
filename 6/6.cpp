@@ -20,15 +20,15 @@ int main()
 {
  setlocale(LC_ALL, "Russian"); 
  string str;
- cout « "введите слово: ";
- cin » str;
+ cout << "введите слово: ";
+ cin >> str;
  if(ch(str))
  {
-  cout « "слово является палиндромом ";
+  cout << "слово является палиндромом ";
  }
  else
  {
-  cout « "слово не является палиндромом";
+  cout << "слово не является палиндромом";
  }
  return 0;
 }
